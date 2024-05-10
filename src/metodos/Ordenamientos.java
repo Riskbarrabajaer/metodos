@@ -82,6 +82,7 @@ public class Ordenamientos {
             // Intercambiar arreglo[i] 
             //y arreglo[indiceMinimo]
             int temp = a[i];
+            MuestraArrayBonito2(a, a[i]);
             a[i] = a[indiceMinimo];
             a[indiceMinimo] = temp;
             this.MuestraArrayBonito(a, temp); 
